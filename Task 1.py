@@ -6,7 +6,6 @@ print(s)
 def write_file(name, s): # создаем отдельный файл и записываем в него строку
     with open(name, 'w') as date:
         date.writelines(s)
-        date.close()
 write_file('File_1.txt', s)
 
 def read_file(): #вытаскиваем строку из файла и преобразуем с список
