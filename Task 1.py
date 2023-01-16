@@ -3,9 +3,9 @@ el = 'abc'
 s = 'abcdi difg fgabc defgl'
 print(s)
 
-def write_file(name, st): # создаем отдельный файл и записываем в него строку
+def write_file(name, s): # создаем отдельный файл и записываем в него строку
     with open(name, 'w') as date:
-        date.writelines(st)
+        date.writelines(s)
 write_file('File_1.txt', s)
 
 def read_file(): #вытаскиваем строку из файла и преобразуем с список
