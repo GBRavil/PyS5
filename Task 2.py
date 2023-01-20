@@ -8,7 +8,7 @@
 
 import random
 
-sum = 121
+sum = 2021
 step = 0
 player1 = 'Ivan'
 player2 = 'Dima'
